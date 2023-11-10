@@ -7,10 +7,13 @@ print("Welcome to a guessing game personally designed by Ife.py")
 print("To stop guessing press exit to stop")
 outer_counter=1
 play_again=''
+#outer loop if you wanna play again
 while play_again!="no" and outer_counter <= 5:
     game_complexity=input("what level do you wanna play EASY,MEDIUM or HARD\n").lower()
+    #inner loop for amount of trials 
     while prompt != "exit" or count <= 5 > 0:
         count -= 1
+        #game complexity
         if game_complexity=="easy":
             print("you have to guess numbers from range 0 to 20")
             f=random.randrange(0,20)
@@ -60,6 +63,7 @@ while play_again!="no" and outer_counter <= 5:
                     break
             print(f"correct answer is {h}") 
     play_again=input("do you want to play again Yes or No\n").lower()
+    #input to checki if one wants to play again
     if play_again!="yes":
         game_complexity=input("what level do you wanna play\n").lower()
         break
