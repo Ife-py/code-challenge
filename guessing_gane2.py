@@ -1,5 +1,5 @@
 import random
-
+#initializing some constants to be used
 chances = 5
 print("Welcome to a guessing game personally designed by Ife.py")
 play_again = ""
@@ -9,10 +9,10 @@ while play_again.lower() != "no":
     ).lower()
     while chances > 0:
         chances -= 1
-
+#initializing range constants
         guess_start = 0
         guess_end = 0
-
+#loop to check game complexity
         if game_complexity == "easy":
             guess_end = 20
         elif game_complexity == "medium":
