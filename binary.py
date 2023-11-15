@@ -1,5 +1,4 @@
-#simple cocde to convert decimal to binary
-b= int(input("enter number to be converted to binary\n"))
+b= int(input("enter number to be converted to decimal\n"))
 final = ""
 
 while b > 0:
