@@ -11,7 +11,7 @@ while play_again!="no" or "exit" and outer_counter==5:
    
     while count<=2>0:
         count-=1
-        take_input=input("enter your choice Rock, Paper ,or Scissors\n").lower
+        take_input=input("enter your choice Rock, Paper ,or Scissors\n").lower()
         if take_input== shuffler:
             print("its a tie try again")
             print(f"you have {count} number of trials left")
@@ -30,7 +30,7 @@ while play_again!="no" or "exit" and outer_counter==5:
                 break
     print(f"computer chose {shuffler} hereby you lost")
     print(f"computer answer is {shuffler} therefore you won")
-    play_again=input("do you want to play again yes or no\n").lower
+    play_again=input("do you want to play again yes or no\n").lower()
     if play_again!="yes":
         break
 print("thanks for playing")

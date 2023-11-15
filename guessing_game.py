@@ -63,8 +63,6 @@ while play_again!="no" and outer_counter <= 5:
                     break
             print(f"correct answer is {h}") 
     play_again=input("do you want to play again Yes or No\n").lower()
-    #input to checki if one wants to play again
     if play_again!="yes":
-        game_complexity=input("what level do you wanna play\n").lower()
         break
 print("Thanks for playing randoguess by 'Ife.py'")
