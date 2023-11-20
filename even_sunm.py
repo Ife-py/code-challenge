@@ -1,5 +1,5 @@
 
-from file2 import decimal_to_binary
+#from file2 import decimal_to_binary
 
 
 sum_of_even=0
@@ -24,4 +24,4 @@ if user_choice == 'odd':
     print(f'the sum of all odd numbers from 1 to {user_desired_end} is {sum_of_odd}')
 
 
-g = decimal_to_binary()
+#g = decimal_to_binary()
