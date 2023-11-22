@@ -12,6 +12,7 @@ def initial(prompt):
         game_complexity=input('what level do you wanna play Easy Medium or hard\n').lower()
         while prompt!= "exit" or count<=5>0:
             count -=1
+
             if game_complexity=="easy":
                 stop=20
                 print("you have to guess number from range 0 to 20")
@@ -20,7 +21,7 @@ def initial(prompt):
                 print("you have to guess number from range 0 to 50")
             elif game_complexity=="hard":
                 stop=70
-                print("you have to guess number from range 0 to 70")
+                print("you have to guess number from rangi 0 to 70")
             f=random.randrange(starting,stop)
             prompt=int(input("try and guess a number\n"))
             if prompt!=f:
@@ -34,6 +35,7 @@ def initial(prompt):
                     break
             print(f"the correct answer is {f}")
             if count==0:        
+                count = 5
                 play_again=input("do you wanna play again yes or no\n").lower()
                 game_complexity=input('what level do you wanna play Easy Medium or hard\n').lower()
                 if play_again=="yes":
