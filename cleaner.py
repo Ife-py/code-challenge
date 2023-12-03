@@ -41,4 +41,4 @@ def initial(prompt):
                 if play_again=="yes":
                     count==5
     print("Thanks for playing randoguess by ife.py")
-initial(prompt)
+initial(prompt) 
