@@ -1,0 +1,26 @@
+.flag__container {
+    width: 50%;
+    height: 500px;
+    background-color:white;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.left__container{
+    width:50%;
+    height: 500px;
+    background-color: green;
+}
+
+.center__container{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+}
+
+.right__container{
+    width: 50%;
+    height: 500px;
+    background-color: green;
+}
