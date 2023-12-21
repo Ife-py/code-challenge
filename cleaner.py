@@ -43,7 +43,6 @@ def initial(prompt):
                     count==5
     print("Thanks for playing randoguess by ife.py")
 initial(prompt) 
-=======
 import random
 prompt=''
 print('welcome to guessing game ')
