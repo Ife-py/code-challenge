@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace;
-void main(){
+using namespace std;
+int main(){
     int x=2,y=2,z;
     z=x++;
     y=++z;
@@ -11,4 +11,5 @@ void main(){
     cout<<"\n x="+ x;
     cout<<"\n y="+ y;
     cout<<"\n z="+ z;
+    return 0;
 }
