@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 prompt=''
 print('welcome to guessing game ')
@@ -85,4 +84,3 @@ def initial(prompt):
                     count==5
     print("Thanks for playing randoguess by ife.py")
 initial(prompt)
->>>>>>> 12fd4287450a931f705a5fd9df1bd9d4737507db
